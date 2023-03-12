@@ -14,6 +14,8 @@
 		11378C1729BD952500296F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11378C1529BD952500296F5E /* LaunchScreen.storyboard */; };
 		11378C1F29BDA08800296F5E /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11378C1E29BDA08800296F5E /* SearchVC.swift */; };
 		11378C2129BDA0B500296F5E /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11378C2029BDA0B500296F5E /* FavoritesListVC.swift */; };
+		1140440729BE4BCE00A5002A /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140440629BE4BCE00A5002A /* GFButton.swift */; };
+		1140440929BE534F00A5002A /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1140440829BE534F00A5002A /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		11378C1829BD952500296F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11378C1E29BDA08800296F5E /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		11378C2029BDA0B500296F5E /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		1140440629BE4BCE00A5002A /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		1140440829BE534F00A5002A /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				11378C1E29BDA08800296F5E /* SearchVC.swift */,
 				11378C2029BDA0B500296F5E /* FavoritesListVC.swift */,
 				11378C0C29BD952400296F5E /* SceneDelegate.swift */,
+				1140440629BE4BCE00A5002A /* GFButton.swift */,
+				1140440829BE534F00A5002A /* GFTextField.swift */,
 				11378C0E29BD952400296F5E /* ViewController.swift */,
 				11378C1329BD952500296F5E /* Assets.xcassets */,
 				11378C1529BD952500296F5E /* LaunchScreen.storyboard */,
@@ -142,9 +148,11 @@
 			files = (
 				11378C1F29BDA08800296F5E /* SearchVC.swift in Sources */,
 				11378C2129BDA0B500296F5E /* FavoritesListVC.swift in Sources */,
+				1140440729BE4BCE00A5002A /* GFButton.swift in Sources */,
 				11378C0F29BD952400296F5E /* ViewController.swift in Sources */,
 				11378C0B29BD952400296F5E /* AppDelegate.swift in Sources */,
 				11378C0D29BD952400296F5E /* SceneDelegate.swift in Sources */,
+				1140440929BE534F00A5002A /* GFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
