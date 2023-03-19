@@ -46,6 +46,7 @@ class GFAlertVC: UIViewController {
         view.addSubview(containerView)
         containerView.backgroundColor = .systemBackground
         containerView.layer.cornerRadius = 16
+        containerView.layer.borderWidth = 2
         containerView.layer.borderColor = UIColor.white.cgColor
         containerView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -61,6 +62,7 @@ class GFAlertVC: UIViewController {
     func configureTitleLabel(){
         containerView.addSubview(titleLabel)
         titleLabel.text = alertTitle ?? "Something went wrong"
+        titleLabel.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
             titleLabel.topAnchor.constraint(equalTo: containerView.topAnchor, constant: padding),
@@ -75,6 +77,7 @@ class GFAlertVC: UIViewController {
         containerView.addSubview(actionButton)
         actionButton.setTitle(buttonTitle ?? "Ok", for: .normal)
         actionButton.addTarget(self, action: #selector(dismissVC), for: .touchUpInside)
+        actionButton.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
             actionButton.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -padding),
@@ -91,6 +94,7 @@ class GFAlertVC: UIViewController {
         containerView.addSubview(messageLabel)
         messageLabel.text = message ?? "Unable to complete request"
         messageLabel.numberOfLines = 4
+        messageLabel.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
             messageLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 8),

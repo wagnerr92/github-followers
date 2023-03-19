@@ -53,6 +53,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1136631429C688CB005FE07F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				11378C1E29BDA08800296F5E /* SearchVC.swift */,
+				112BE31729BFF327002C84CC /* FollowerListVC.swift */,
+				11378C2029BDA0B500296F5E /* FavoritesListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1136631529C68907005FE07F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				1140440629BE4BCE00A5002A /* GFButton.swift */,
+				1140440829BE534F00A5002A /* GFTextField.swift */,
+				112BE31929BFFA0B002C84CC /* GFTitleLabel.swift */,
+				1134FA9529C13ED500C4FE50 /* GFBodyLabel.swift */,
+				1134FA9729C13F9300C4FE50 /* GFAlertVC.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		1136631629C689CB005FE07F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1134FA9929C14B0500C4FE50 /* UIVIewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1136631729C68A16005FE07F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				11378C0A29BD952400296F5E /* AppDelegate.swift */,
+				11378C0C29BD952400296F5E /* SceneDelegate.swift */,
+				11378C0E29BD952400296F5E /* ViewController.swift */,
+				11378C1329BD952500296F5E /* Assets.xcassets */,
+				11378C1529BD952500296F5E /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		11378BFE29BD952400296F5E = {
 			isa = PBXGroup;
 			children = (
@@ -72,20 +114,10 @@
 		11378C0929BD952400296F5E /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				11378C0A29BD952400296F5E /* AppDelegate.swift */,
-				11378C1E29BDA08800296F5E /* SearchVC.swift */,
-				112BE31729BFF327002C84CC /* FollowerListVC.swift */,
-				11378C2029BDA0B500296F5E /* FavoritesListVC.swift */,
-				11378C0C29BD952400296F5E /* SceneDelegate.swift */,
-				1140440629BE4BCE00A5002A /* GFButton.swift */,
-				1140440829BE534F00A5002A /* GFTextField.swift */,
-				112BE31929BFFA0B002C84CC /* GFTitleLabel.swift */,
-				1134FA9529C13ED500C4FE50 /* GFBodyLabel.swift */,
-				1134FA9729C13F9300C4FE50 /* GFAlertVC.swift */,
-				1134FA9929C14B0500C4FE50 /* UIVIewController+Ext.swift */,
-				11378C0E29BD952400296F5E /* ViewController.swift */,
-				11378C1329BD952500296F5E /* Assets.xcassets */,
-				11378C1529BD952500296F5E /* LaunchScreen.storyboard */,
+				1136631729C68A16005FE07F /* Support */,
+				1136631629C689CB005FE07F /* Extensions */,
+				1136631529C68907005FE07F /* CustomViews */,
+				1136631429C688CB005FE07F /* Screens */,
 				11378C1829BD952500296F5E /* Info.plist */,
 			);
 			path = GithubFollowers;
