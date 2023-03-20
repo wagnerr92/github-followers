@@ -14,6 +14,7 @@
 		1134FA9A29C14B0500C4FE50 /* UIVIewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1134FA9929C14B0500C4FE50 /* UIVIewController+Ext.swift */; };
 		1136631A29C68F13005FE07F /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1136631929C68F13005FE07F /* Follower.swift */; };
 		1136631C29C69167005FE07F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1136631B29C69167005FE07F /* User.swift */; };
+		1136631F29C7D2CF005FE07F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1136631E29C7D2CF005FE07F /* NetworkManager.swift */; };
 		11378C0B29BD952400296F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11378C0A29BD952400296F5E /* AppDelegate.swift */; };
 		11378C0D29BD952400296F5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11378C0C29BD952400296F5E /* SceneDelegate.swift */; };
 		11378C0F29BD952400296F5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11378C0E29BD952400296F5E /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 		1134FA9929C14B0500C4FE50 /* UIVIewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController+Ext.swift"; sourceTree = "<group>"; };
 		1136631929C68F13005FE07F /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		1136631B29C69167005FE07F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1136631E29C7D2CF005FE07F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		11378C0729BD952400296F5E /* GithubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11378C0A29BD952400296F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11378C0C29BD952400296F5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		1136631D29C7D29C005FE07F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1136631E29C7D2CF005FE07F /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		11378BFE29BD952400296F5E = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +137,7 @@
 		11378C0929BD952400296F5E /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				1136631D29C7D29C005FE07F /* Managers */,
 				1136631829C68F07005FE07F /* Model */,
 				1136631729C68A16005FE07F /* Support */,
 				1136631629C689CB005FE07F /* Extensions */,
@@ -219,6 +230,7 @@
 				112BE31A29BFFA0B002C84CC /* GFTitleLabel.swift in Sources */,
 				112BE31829BFF327002C84CC /* FollowerListVC.swift in Sources */,
 				1140440929BE534F00A5002A /* GFTextField.swift in Sources */,
+				1136631F29C7D2CF005FE07F /* NetworkManager.swift in Sources */,
 				1134FA9A29C14B0500C4FE50 /* UIVIewController+Ext.swift in Sources */,
 				1134FA9629C13ED500C4FE50 /* GFBodyLabel.swift in Sources */,
 			);
